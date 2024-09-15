@@ -19,19 +19,24 @@ body {
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  color: #fff;
+}
+
+header h1,
+header p,
+.hero .message h2,
+.quote h3,
+footer p {
+  color: #fff; /* White text color */
 }
 
 header h1 {
   font-size: 48px;
-  color: #39ff14;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 header p {
   font-size: 20px;
-  color: #ff00ff;
 }
 
 .hero {
@@ -43,15 +48,13 @@ header p {
 
 .message h2 {
   font-size: 36px;
-  color: #39ff14;
-  text-shadow: 0px 0px 10px #ff00ff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7); /* Subtle shadow for better readability */
 }
 
 .quote h3 {
   font-size: 30px;
-  color: #ff00ff;
   margin: 40px 0;
-  text-shadow: 0px 0px 10px #00f7ff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7); /* Subtle shadow for better readability */
 }
 
 footer {
@@ -60,6 +63,5 @@ footer {
 
 footer p {
   font-size: 20px;
-  color: #39ff14;
-  text-shadow: 0px 0px 10px #00f7ff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7); /* Subtle shadow for better readability */
 }
